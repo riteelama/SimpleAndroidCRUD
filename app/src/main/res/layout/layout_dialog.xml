@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/idEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:paddingHorizontal="15dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:paddingHorizontal="15dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/addressEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address"
+        android:paddingHorizontal="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentBottom="true"
+        android:text="Save Data"
+        android:textAllCaps="false" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
